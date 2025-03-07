@@ -11,6 +11,7 @@ charset-normalizer==3.4.1
 dataclasses-json==0.6.7
 distro==1.9.0
 Django==5.1.7
+django-cors-headers==4.7.0
 djangorestframework==3.15.2
 frozenlist==1.5.0
 google-api-core==2.24.1
@@ -22,6 +23,7 @@ googleapis-common-protos==1.69.0
 greenlet==3.1.1
 groq==0.18.0
 grpcio==1.70.0
+gunicorn==23.0.0
 h11==0.14.0
 httpcore==1.0.7
 httplib2==0.22.0
