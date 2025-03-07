@@ -47,13 +47,15 @@ CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173", 
     "http://localhost:5174",
-    "https://aiapi-vdez.onrender.com"
+    "https://aiapi-vdez.onrender.com",
+    "https://queryprocess.vercel.app",
 
 ]
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5173",  
     "http://localhost:5174",
-    "https://aiapi-vdez.onrender.com"
+    "https://aiapi-vdez.onrender.com",
+    "https://queryprocess.vercel.app",
 
 ]
 
